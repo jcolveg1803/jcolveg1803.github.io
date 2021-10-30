@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf 8">
+        <title>Formulario de prueba</title>
+        <style type="text/css">
+            body {
+                background-color: rgb(230, 135, 98);
+                padding: 2em;
+            }
+            label {
+                background-color:cornsilk;
+                color: rgb(0, 0, 0);
+            }
+            input {
+                padding: .2em;
+            }
+            input:focus {
+                border: 2px solid rgb(255, 255, 255);
+                background:rgb(119, 223, 255);
+            }
+           form {
+                background-color:rgb(207, 111, 111);
+                column-count: 2;
+                padding: 1.5em;
+            }
+            div {
+                margin: .4em 0;
+            }
+            div label {
+                width: 25%;
+            }
+            nav {
+                border-style: dashed;
+                border-color: black;
+                border-width: .1em;
+                margin: 1em;
+                padding: .5em;
+                height: auto;
+                width: 12em;
+                background-color: rgb(240, 141, 96);
+            }
+            a:hover {
+                color:greenyellow;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="" type="get">
+            <div>
+                <label for="name" id="nombre">Nombre:</label>
+                <input type="text" name="usr" id="nombre">
+            </div>
+            <div>
+                <label for="mail" id="mail">Correo electrónico:</label>
+                <input type="email" name="usr_mail" id="mail">
+            </div>
+            <div>
+                <label for="url" id="url">Url:</label>
+                <input type="url" id="url" name="url" placeholder="Escriber la URL de tu página"></input>
+            </div>
+            <div>
+                <label for="fecha" id="fecha">Fecha:</label>
+                <input type="date" name="fecha">
+            </div>
+            <div>
+                <label for="tiempo" id="tiempo">Tiempo:</label>
+                <input type="time" name="tiempo">
+            </div>
+            <div>
+                <label for="fechayhora" id="fechayhora">Fecha y hora:</label>
+                <input type="datetime-local" name="fechayhora">
+            </div>
+            <div>
+                <label for="mes" id="mes">Mes:</label>
+                <input type="month" name="mes">
+            </div>
+            <div>
+                <label for="week" id="week">Semana:</label>
+                <input type="week" name="week" id="week">
+            </div>
+            <div>
+                <label for="num" id="num">Número(min -10, max 10):</label>
+                <input type="number" max="10" min="-10" name="num">
+            </div>
+            <div>
+                <label for="telf" id="telf">Teléfono:</label>
+                <input type="number" name="telf" id="telf">
+            </div>
+            <div>
+                <label for="term" id="term">Término de búsqueda</label>
+                <input type="text" name="term" id="term">
+            </div>
+            <div>
+                <label for="color" id="color">Color favorito</label>
+                <input type="color" name="color" id="color">
+            </div>
+            <input type="submit" value="Enviar"
+        </form>
+        <nav>
+            <a href="../index.html">Vuelta a la página de inicio</a>
+        </nav>
+    </body>
+</html>
