@@ -1,0 +1,67 @@
+body {
+    background-color: #1f1f1f; 
+    color: #00b7eb;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #fff;
+	text-shadow:
+		0 0 5px #00ff00,
+		0 0 10px rgb(0, 255, 0),
+		0 0 20px rgb(0, 255, 0),
+		0 0 40px rgb(53, 127, 38),
+		0 0 80px rgb(53, 127, 38),
+		0 0 90px rgb(53, 127, 38),
+		0 0 100px rgb(53, 127, 38),
+		0 0 140px rgb(53, 127, 38),
+		0 0 180px rgb(53, 127, 38);
+}
+
+.imagenprincipal {
+    width: 100%;
+}
+
+.ejercicios {
+    background-color: #2b2b2b;
+    width: 20%;
+}
+
+.ejercicios h2 {
+    text-align: center;
+    padding :.3em;
+}
+
+.ejercicios li {
+    padding: .2em;
+}
+
+a {
+    padding: .2em;
+    color: #ff69b4;
+}
+
+a:hover {
+    color: rgb(250, 37, 37);
+}
+
+.imagenhtml {
+    size: 60%;
+    float: right;
+}
+
+/*.neon   {
+    color: #fff;
+	margin-top: 30%;
+	text-shadow:
+		0 0 5px rgb(0, 255, 0),
+		0 0 10px rgb(0, 255, 0),
+		0 0 20px rgb(0, 255, 0),
+		0 0 40px rgb(53, 127, 38),
+		0 0 80px rgb(53, 127, 38),
+		0 0 90px rgb(53, 127, 38),
+		0 0 100px rgb(53, 127, 38),
+		0 0 140px rgb(53, 127, 38),
+		0 0 180px rgb(53, 127, 38);
+
+}*/
