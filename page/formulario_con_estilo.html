@@ -3,49 +3,39 @@
     <head>
         <meta charset="utf 8">
         <title>Formulario de prueba</title>
-        <style type="text/css">
-            body {
-                background-color: rgb(230, 135, 98);
-                padding: 2em;
-            }
-            label {
-                background-color:cornsilk;
-                color: rgb(0, 0, 0);
-            }
-            input {
-                padding: .2em;
-            }
-            input:focus {
-                border: 2px solid rgb(255, 255, 255);
-                background:rgb(119, 223, 255);
-            }
-           form {
-                background-color:rgb(207, 111, 111);
-                column-count: 2;
-                padding: 1.5em;
-            }
-            div {
-                margin: .4em 0;
-            }
-            div label {
-                width: 25%;
-            }
-            nav {
-                border-style: dashed;
-                border-color: black;
-                border-width: .1em;
-                margin: 1em;
-                padding: .5em;
-                height: auto;
-                width: 12em;
-                background-color: rgb(240, 141, 96);
-            }
-            a:hover {
-                color:greenyellow;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="../estilos/formulario.css">
     </head>
     <body>
+        <p class="parrafo1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius ex eget tempor convallis. Aenean commodo, ligula eu egestas bibendum, quam massa porttitor nunc, a mattis augue elit sit amet quam. Phasellus porttitor ac lacus quis malesuada. Integer accumsan nec lacus et interdum. Duis pellentesque enim ac congue placerat. Nulla. 
+        </p>
+        <p class="parrafo2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius ex eget tempor convallis. Aenean commodo, ligula eu egestas bibendum, quam massa porttitor nunc, a mattis augue elit sit amet quam. Phasellus porttitor ac lacus quis malesuada. Integer accumsan nec lacus et interdum. Duis pellentesque enim ac congue placerat. Nulla. 
+        </p>
+
+        <nav>
+            <ul>
+                <li>
+                    <a class="enl1" href="#">Enlace 1</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a class="enl2" href="#">Enlace 2</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a class="enl3" href="#">Enlace 3</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a class="enl4" href="#">Enlace 4</a>
+                </li>
+            </ul>
+        </nav>
+
         <form action="" type="get">
             <div>
                 <label for="name" id="nombre">Nombre:</label>
@@ -97,8 +87,8 @@
             </div>
             <input type="submit" value="Enviar"
         </form>
-        <nav>
-            <a href="../index.html">Vuelta a la página de inicio</a>
+        <nav class="navegacion2">
+            <a class="inicio" href="../index.html">Vuelta a la página de inicio</a>
         </nav>
     </body>
 </html>
