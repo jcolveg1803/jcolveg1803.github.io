@@ -1,0 +1,41 @@
+td{
+    padding: .5em;
+    margin: .2em;
+    border-radius: 5px;
+}
+
+#dias{
+    background-color: salmon;
+}
+
+#horas{
+    background-color:peru;
+}
+
+#recreo{
+    background-color: dodgerblue;
+}
+
+#iso{
+    background-color:lightslategray;
+}
+
+#marcas{
+    background-color: tomato;
+}
+
+#fol{
+    background-color: aquamarine;
+}
+
+#redes{
+    background-color:mediumseagreen ;
+}
+
+#fundamentos{
+    background-color: coral;
+}
+
+#bd{
+    background-color: hotpink;
+}
