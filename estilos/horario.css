@@ -1,41 +1,59 @@
 td{
     padding: .5em;
-    margin: .2em;
+    border-radius: .6em;
+}
+
+table{
+    color: #f5f5f5;
+    font-weight: bold;
+    font-size: 15px;
     border-radius: 5px;
+    background-color: #555555;
+    border: #414141 solid 2px;
 }
 
 #dias{
     background-color: #fa8072;
+    border: #8a4942 solid 2px;
 }
 
 #horas{
     background-color:#cd853f;
+    border: #854f1a solid 2px;
 }
 
 #recreo{
     background-color: #1e90ff;
+    border: #0054a8 solid 2px;
 }
 
 #iso{
     background-color:#778899;
+    border: #587999 solid 2px;
 }
 
 #marcas{
     background-color: #ff6347;
+    border: #ff5031 solid 2px;
 }
 
 #fol{
-    background-color: #7fffd4;
+    background-color: #63b99d;
+    border: #2bb688 solid 2px;
 }
 
 #redes{
-    background-color:#3cb371 ;
+    background-color:#3cb371;
+    border: #00863c solid 2px;
 }
 
 #fundamentos{
     background-color: #ff7f50;
+    border: #ff672f solid 2px;
 }
 
 #bd{
     background-color: #ff69b4;
+    border: #ff48a3 solid 2px;
 }
+
