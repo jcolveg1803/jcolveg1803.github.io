@@ -5,37 +5,37 @@ td{
 }
 
 #dias{
-    background-color: salmon;
+    background-color: #fa8072;
 }
 
 #horas{
-    background-color:peru;
+    background-color:#cd853f;
 }
 
 #recreo{
-    background-color: dodgerblue;
+    background-color: #1e90ff;
 }
 
 #iso{
-    background-color:lightslategray;
+    background-color:#778899;
 }
 
 #marcas{
-    background-color: tomato;
+    background-color: #ff6347;
 }
 
 #fol{
-    background-color: aquamarine;
+    background-color: #7fffd4;
 }
 
 #redes{
-    background-color:mediumseagreen ;
+    background-color:#3cb371 ;
 }
 
 #fundamentos{
-    background-color: coral;
+    background-color: #ff7f50;
 }
 
 #bd{
-    background-color: hotpink;
+    background-color: #ff69b4;
 }
