@@ -27,27 +27,27 @@ table{
     border: #0054a8 solid 2px;
 }
 
-#iso{
+#aso{
     background-color:#778899;
     border: #587999 solid 2px;
 }
 
-#marcas{
+#web{
     background-color: #ff6347;
     border: #ff5031 solid 2px;
 }
 
-#fol{
+#empresa{
     background-color: #63b99d;
     border: #2bb688 solid 2px;
 }
 
-#redes{
+#servicios{
     background-color:#3cb371;
     border: #00863c solid 2px;
 }
 
-#fundamentos{
+#seguridad{
     background-color: #ff7f50;
     border: #ff672f solid 2px;
 }
@@ -55,5 +55,10 @@ table{
 #bd{
     background-color: #ff69b4;
     border: #ff48a3 solid 2px;
+}
+
+#libre{
+    background-color: #f77ead;
+    border: #ed6498 solid 2px;
 }
 
