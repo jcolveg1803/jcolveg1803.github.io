@@ -1,11 +1,6 @@
 td{
     padding: 0.5em;
     border-radius: 0.6em;
-    width: 150px;
-}
-
-tr{
-    width: 150px;
 }
 
 table{
@@ -15,7 +10,6 @@ table{
     border-radius: 5px;
     background-color: #555555;
     border: #414141 solid 2px;
-    width: auto;
 }
 
 #dias{
@@ -24,6 +18,7 @@ table{
 }
 
 #horas{
+    height: 4em;
     background-color:#cd853f;
     border: #854f1a solid 2px;
 }
@@ -33,22 +28,22 @@ table{
     border: #0054a8 solid 2px;
 }
 
-#aso{
+#sist{
     background-color:#778899;
     border: #587999 solid 2px;
 }
 
-#web{
+#lm{
     background-color: #ff6347;
     border: #ff5031 solid 2px;
 }
 
-#empresa{
+#fol{
     background-color: #63b99d;
     border: #2bb688 solid 2px;
 }
 
-#servicios{
+#progr{
     background-color:#3cb371;
     border: #00863c solid 2px;
 }
@@ -58,13 +53,13 @@ table{
     border: #ff672f solid 2px;
 }
 
-#bd{
+#ent{
     background-color: #ff69b4;
     border: #ff48a3 solid 2px;
 }
 
-#libre{
-    background-color: #f77ead;
-    border: #ed6498 solid 2px;
+#bd{
+    background-color: #386dff;
+    border: #1956fd solid 2px;
 }
 
