@@ -12,6 +12,14 @@ table{
     border: #414141 solid 2px;
 }
 
+td{
+    width: 15%;
+}
+
+tr{
+    heigth: 15%;
+}
+
 #dias{
     background-color: #fa8072;
     border: #8a4942 solid 2px;
@@ -48,7 +56,7 @@ table{
     border: #00863c solid 2px;
 }
 
-#seguridad{
+#hlc{
     background-color: #ff7f50;
     border: #ff672f solid 2px;
 }
@@ -58,7 +66,7 @@ table{
     border: #ff48a3 solid 2px;
 }
 
-#psp{
+#psv{
     background-color: #386dff;
     border: #1956fd solid 2px;
 }
